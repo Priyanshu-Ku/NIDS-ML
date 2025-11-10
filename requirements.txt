@@ -1,0 +1,54 @@
+# NIDS-ML Requirements
+# Network Intrusion Detection System using Machine Learning
+# Python 3.10+
+
+# Core Data Science Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning - Traditional
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+imbalanced-learn>=0.11.0
+
+# Deep Learning (Choose one or both)
+tensorflow>=2.13.0
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# Explainable AI
+shap>=0.42.0
+
+# Network & Packet Capture
+scapy>=2.5.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Dashboard
+streamlit>=1.25.0
+
+# Utilities
+joblib>=1.3.0
+python-dotenv>=1.0.0
+
+# Logging & Monitoring
+tqdm>=4.65.0
+
+# Data Processing
+pyarrow>=12.0.0
+
+# Optional: for advanced features
+# lightgbm>=4.0.0
+# catboost>=1.2.0
+# optuna>=3.2.0  # for hyperparameter optimization
+
+# Development Tools (Optional)
+# jupyter>=1.0.0
+# ipykernel>=6.25.0
+# black>=23.7.0
+# flake8>=6.1.0
+# pytest>=7.4.0

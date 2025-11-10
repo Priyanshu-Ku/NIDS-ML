@@ -1,0 +1,69 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large CSV and binary files)
+data/raw/*.csv
+data/raw/*.txt
+data/raw/*.pcap
+data/processed/*.npy
+data/processed/*.pkl
+*.h5
+*.hdf5
+
+# Model files (can be large)
+models/*.pkl
+models/*.h5
+models/*.pb
+models/*.pt
+models/*.pth
+
+# Logs
+logs/*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
