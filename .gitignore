@@ -20,16 +20,19 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
-*.ipynb
+*.ipynb 
 
 # Data files (large CSV and binary files)
 data/raw/*.csv
 data/raw/*.txt
 data/raw/*.pcap
+data/processed/
 data/processed/*.npy
 data/processed/*.pkl
 *.h5
 *.hdf5
+*.csv
+*.pcap
 
 # Model files (can be large)
 models/*.pkl
