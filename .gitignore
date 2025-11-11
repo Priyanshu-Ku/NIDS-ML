@@ -70,3 +70,4 @@ htmlcov/
 *.temp
 temp/
 tmp/
+data/processed/
